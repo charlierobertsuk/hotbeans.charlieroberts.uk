@@ -1,0 +1,35 @@
+/* 
+My websites colour theme:
+#00A7EF - Blue
+#EDF3F6 - Pale Blue
+#353F4C - Grey Blue
+#FFFFFF - White
+*/
+
+body{
+    margin: 0; /* Margin always 0 if unchanged */
+    padding: 0; /*Same with padding*/
+}
+
+.welcome-back {
+    position: relative; /* Make sure the parent container is relatively positioned */
+    height: 100vh; /* vh = Viewport */
+    width: 100%; /* Maximum width */
+    background-image: url('Computer.jpeg');
+    background-attachment: fixed; /* Cool scrolling effect */
+    background-size: cover; /* Covers a selected area */
+    background-position: center; /* The image is always centered */
+}
+
+.welcome-front {
+    position: absolute; /* Position the front div absolute :) */
+    top: 0; /* The top background div */
+    left: 0; /* The left background div */
+    width: 100%; /* Max width background div */
+    height: 100%; /* All the height of background div */
+    background-color: rgba(53, 63, 76, 0.8); /* I uses rgba to have a transparent background cos it looks cool */
+    display: flex; /* Lots of centering the content */
+    justify-content: center; /* Lots of centering the content */
+    align-items: center; /* Lots of centering the content */
+    color: #ffffff; /* Text color */
+}
