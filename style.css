@@ -11,6 +11,33 @@ body{
     padding: 0; /*Same with padding*/
 }
 
+/* 
+NOTE for navber:
+- I need to add an accesability button that comes up with a popup
+- Add logo far left
+*/
+
+.navbar {
+    background-color: #353F4C; /* Grey Blue */
+    overflow: hidden; /* Keeps my navbar alive */
+    position: sticky; /* Sticks navbar to the top */
+    top: 0; /* Positions it at the top */
+    z-index: 1000; /* Is on top of everything else */
+}
+
+.navbar a {
+    float: left; /* Buttons are on the left of the screen */
+    color: #FFFFFF; /* White */
+    text-align: center; /* Text is aligned to the center to the button */
+    padding: 25px 20px; /* Room for the text to breath */
+    text-decoration: none; /* Removes stupid link colours and underlines */
+}
+
+.navbar a:hover {
+    background-color: #00A7EF; /* Blue when hovering curser over */
+    color: #FFFFFF; /* White when hovering */
+}
+
 .welcome-back {
     position: relative; /* Make sure the parent container is relatively positioned */
     height: 100vh; /* vh = Viewport */
