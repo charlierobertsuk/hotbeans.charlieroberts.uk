@@ -22,6 +22,12 @@ NOTE for navber:
     padding-right: 200px;
 }
 
+@media only screen and (max-width: 800px){
+    .content{
+        padding:0;
+    }
+}
+
 .navbar {
     overflow: hidden; /* Keeps my navbar alive */
     position: sticky; /* Sticks navbar to the top */
